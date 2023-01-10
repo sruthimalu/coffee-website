@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew Beans Co.</title>
+
+    <link rel="icon" href="https://i.postimg.cc/gJFvrs6N/Brew-Beans-co.png">
+
+    <link rel="stylesheet" href="./coffee.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+
+</head>
+<body>
+   
+        <div class="row" style="background-color: rgb(233, 106, 48);">
+            <!-- <i class="fa-sharp fa-solid fa-mug-hot " ></i> -->
+            <img src="data:image/jpeg;base64,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" alt="" width="200" height="175">
+            <center>
+                
+            <div id="ll" class="col col">
+                <h1 class="text-
+                 mt-5  mb-4">Brew Beans Co.</h1>
+            </div>
+            <div class="col"><p>Drink Coffee , Live Forever !!!</p></div></center>
+        
+        </div>
+<div  id="yy" style="background-color: rgb(224, 243, 118);">
+        <div id="woww" style="color: rgb(74, 20, 20);font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"><center>
+            <h2 > Coffee tastes better when it is <b>strong! <b></b></h2>
+            <h2>Do you Agree?</h2>
+        </center>
+        </div>
+
+        <div id="wow" style="border: solid 2px rgb(78, 27, 27) ; background-origin: padding-box;">
+            <p style="color: rgb(78, 27, 27) ;">
+                A 2017 review of clinical trails found that drinking Coffee is generally safe within usual levels of intake and is more likely to improve health outcomes than to cause harm at doses of 3or4 cups of cofee daily.
+                Exceptions include possible increased risk in women having bone fractures, and a possible increased risk in pregnant women of fetal lose or decreased birth weight.
+                Results are complicated by poor study quality, and difference in age,gender,health status, and serving size.
+
+            </p>
+        </div>
+
+        <div>
+
+            <center><b><h3 style="color:rgb(78, 27, 27)  ;">TYPES</h3></b></center>
+
+            <p style="color: rgb(78, 27, 27) ;">
+                Coffee beans are the seeds of a fruit called a coffee cherry. Coffee cherrys grow on coffee trees from a genes of plants called coffia.
+                Their are a wide variety of species of cofffe plants,ranging from shrubs to trees.
+
+                <ul>Types of bean:<p>There are 4 types of coffee bean. Arabica, Robusta, Excelsa and Liberica. All four have radically different taste profiles. NESCAFÉ uses a careful blend of two types of beans. Arabica, which makes a smoother, sweeter coffee, with hints of chocolate, caramel, and nuts. The Arabica coffee plants prefer more gentle climates; they don't handle cold and frost very well. Arabica beans are easily distinguished by their longer, oval shape. We also use Robusta beans, which brews into an intense, bold coffee, with a higher caffeine content, and a darker, earthier, more bitter taste. They're easier to farm, as they don't mind a slightly harsher climate than their Arabica cousins. In fact, their higher caffeine content is a natural insect repellent! You'll recognise Robusta beans by their slightly shorter, more circular shape.</p> </ul>
+                <ul>Types of roast: <p>The roasting process toasts the coffee beans, darkening their color and giving them chocolatey, caramelized flavors. At higher temperatures, oils appear on the surface of the beans. At 401°F, the beans crack for the first time and start to expand. Around 437°F, they crack a second time. High-quality coffee beans are never roasted above 482°F. Beyond that temperature, they will start to thin out and get a burnt taste. You don’t want to drink charcoal!
+
+                    Roast names and descriptions are not universal in the coffee industry, and roasting is part art and part science. All that variation can make it a little tricky to pick the right bag of beans. However, you should be able to tell the roast level by the color of the bean and what it tastes like.</p></ul>
+                <ul>Types of grind: <p>The grind size you use ultimately impacts the coffees taste once it comes into contact with water. How fine or how coarse the beans are ground affects how fast the water will pass through them, determining the strength of your coffee. 
+                    If your beans are ground coarsely, the water will move quickly between the pieces, extracting only some of the flavour. To get a full balance of flavour, it’s best to brew these grounds for a bit longer so more of the flavour is extracted. That’s why, for example, a French Press can take four minutes to get the perfect brew.
+                    Finely ground beans mean the coffee grinds are, well, fine, and packed more closely. Water can take longer to pass through all the grounds and, as a result, extract more of the flavour. That’s why when you’re brewing an espresso, you only need a fraction of the time you’d use with a French Press to get the full flavour of your coffee.
+                </p></ul>
+                <ul>Decaffinated coffee: <p>Decaffeination removes about 97% or more of the caffeine in coffee beans. A typical cup of decaf coffee has about 2 mg of caffeine, compared to a typical cup of regular coffee, which has about 95 mg of caffeine.</p></ul>
+            </p> <br>
+             
+            <center>
+            
+
+             <h3 style="color:rgb(78, 27, 27) ;"><b>TOP BRANDS</b></h3>
+             <div class="star">
+                
+                1.<b style="color: rgb(78, 27, 27);">Starbucks:</b>
+                <p style="margin-right: 50;">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                     Dolor qui quam cum neque maxime, debitis perspiciatis, <br>
+                     eligendi amet ad non beatae tempora nihil, <br>
+                      impedit enim voluptates nulla cupiditate ut officiis!</p> <br>   <div><img src="https://media-cdn.tripadvisor.com/media/photo-s/12/74/cf/cb/the-first-peet-s-coffee.jpg" alt=""width="200" height="200"></div>
+                    </div>
+<!-- 
+                   <div class="section-container">
+                    <div class="columns-image" style=" ">
+                        
+
+                    </div>
+                    <div class="columns-content">
+                        <div class="columns-image" style="background-image: url('https://th.bing.com/th/id/OIP.wp3ckPocbAJxA4fUye8ZgwHaHa?w=190&h=190&c=7&r=0&o=5&dpr=1.5&pid=1.7');"></div>
+                        <div class="content-container">
+                            <h5>1.Starbucks</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, deserunt maxime. Consectetur eveniet voluptate, officia ipsa, deleniti amet ipsum accusantium, 
+                                perspiciatis quos minus voluptates. Ipsam minus aut molestiae modi facilis?
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur quod incidunt perferendis reiciendis beatae explicabo ipsum dicta velit esse harum nulla odit, 
+                            quo adipisci iure architecto sint rerum perspiciatis animi?</p>
+                        </div>
+                    </div>
+                   </div>
+
+
+                   <div class="section-container">
+                    
+                    <div class="columns-content">
+
+                        <div class="content-container">
+                            <h5>1.Starbucks</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, deserunt maxime. Consectetur eveniet voluptate, officia ipsa, deleniti amet ipsum accusantium, 
+                                perspiciatis quos minus voluptates. Ipsam minus aut molestiae modi facilis?
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur quod incidunt perferendis reiciendis beatae explicabo ipsum dicta velit esse harum nulla odit, 
+                            quo adipisci iure architecto sint rerum 
+                            perspiciatis
+                             animi?</p>
+                        </div>
+                    </div>
+                    <div class="columns-image" style="background-image: url('https://th.bing.com/th/id/OIP.wp3ckPocbAJxA4fUye8ZgwHaHa?w=190&h=190&c=7&r=0&o=5&dpr=1.5&pid=1.7');">
+
+                    </div>
+                   </div> -->
+
+
+
+
+
+
+
+
+
+
+
+       
+                    <hr>
+       
+                    <div style="background-color:rgb(233, 106, 48) ;"> <center>
+                       <h2 style="color: rgb(78, 27, 27);">Gallery</h2>
+       
+                        </center>
+       
+                        <div><span><img src="https://static.toiimg.com/photo/92751252.cms" alt="" width="200" height="150"></span><span><img src="https://static.toiimg.com/photo/89078867.cms" alt=""width="200" height="150"></span><span><img src="https://images.news18.com/ibnlive/uploads/2022/07/painting-of-filter-coffee-16645847944x3.jpg" alt=""width="200" height="150"></span></div>
+                        <div><span><img src="https://media.istockphoto.com/id/1303583671/photo/cup-glass-of-coffee-with-smoke-and-coffee-beans-on-old-wooden-background.jpg?s=612x612&w=0&k=20&c=fAh3m6Hqxz-qeA45Tj2jGARhRiGFhgm80dLVthnvlD8=" alt=""width="200" height="150"></span><span><img src="https://wompampsupport.azureedge.net/fetchimage?siteId=7716&url=https%3A%2F%2Fwww.cancer.org%2Fcontent%2Fdam%2Fcancer-org%2Fimages%2Fphotographs%2Fsingle-use%2Fespresso-coffee-cup-with-beans-on-table-restricted.jpg%2Fjcr%3Acontent%2Frenditions%2Faem-thumbnail-600-600.jpeg" alt=""width="200" height="150"></span><span><img src="https://i0.wp.com/naivo.in/storage/2022/01/Buy-High-Quality-Green-Coffee-Beans-Online-.png?w=1170&ssl=1" alt=""width="200" height="150"></span></div>
+                        <div><span><img src="https://www.acouplecooks.com/wp-content/uploads/2021/08/Cafe-Au-Lait-001s.jpg" alt=""width="200" height="150"></span><span><img src="https://media.istockphoto.com/id/1220101964/photo/pouring-coffee-with-smoke-on-a-cup-and-coffee-beans-on-burlap-sack-on-black-background.jpg?s=612x612&w=0&k=20&c=uR1oUz1TyGj9cjmXM-kwsPCLwCFznEyvqs1yqS8fGvI=" alt=""width="200" height="150"></span><span><img src="https://www.acouplecooks.com/wp-content/uploads/2021/02/Spanish-Coffee-051.jpg" alt=""width="200" height="150"></span></div>
+                   
+                    </div>
+       
+                     <hr>
+       
+                    <h3 style="color: rgb(78, 27, 27);">Have some Query ?</h3>
+                    <div style="border: solid 2px brown; background-color:rgba(233, 107, 48, 0.916)  ;">
+                       
+                       <form action="">
+       
+                           <label for="">Your Name:</label>
+                           <input type="text"> <br><br>
+                           <label for="">Your email-id:</label>
+                           <input type="text"> <br><br>
+                           <label for="">Your Query :</label>
+                           <textarea name="" id="" cols="20" rows="10"></textarea> <br> <br>
+                           <button>Send</button> <br>
+       
+                       </form>
+                    </div> <br>
+       
+                    <div style=" background-color: rgba(233, 107, 48, 0.717) ;">
+                       <h3>Reach Us</h3> <br>
+       
+                       <div style="color: rgb(78, 27, 27) ; margin: right 50px; ;"> Address : 281/33, Brewers Town,toronto</div>
+       
+                       <label for="">Instagram</label>   <label for="">Facebook</label>   <label for="">Twitter</label>
+       
+                       <br> <br>
+       
+                       <a href="">@2023 Brew Beans Co.</a>
+       
+       
+                    </div>
+       
+                   
+                   </center>
+       
+       
+       
+       
+       
+       
+                   
+       
+               </div>
+       
+       
+           
+       </div>   
+       </body>
+       </html>
